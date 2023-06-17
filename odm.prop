@@ -1,0 +1,6 @@
+#
+# odm.prop for sdm710
+#
+
+# Qualcomm
+ro.vendor.qti.va_odm.support=1
