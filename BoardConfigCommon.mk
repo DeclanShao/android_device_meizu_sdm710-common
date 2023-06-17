@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The MoKee Open Source Project
+# Copyright (C) 2020 The LineageOS Open Source Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -110,7 +110,7 @@ BOARD_FLASH_BLOCK_SIZE := 262144 # (BOARD_KERNEL_PAGESIZE * 64)
 TARGET_COPY_OUT_VENDOR := vendor
 
 # Power
-TARGET_TAP_TO_WAKE_NODE := /dev/vendor.mokee.touch@1.0/dt2w
+TARGET_TAP_TO_WAKE_NODE := /dev/vendor.lineage.touch@1.0/dt2w
 TARGET_USES_INTERACTION_BOOST := true
 
 # Properties

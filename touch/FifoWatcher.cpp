@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2020 The MoKee Open Source Project
+ * Copyright (C) 2020 The LineageOS Open Source Project
  *
  * SPDX-License-Identifier: Apache-2.0
  *
@@ -17,7 +17,7 @@
 #include <sys/stat.h>
 
 namespace vendor {
-namespace mokee {
+namespace lineage {
 namespace touch {
 namespace V1_0 {
 namespace implementation {
@@ -87,5 +87,5 @@ error:
 }  // namespace implementation
 }  // namespace V1_0
 }  // namespace touch
-}  // namespace mokee
+}  // namespace lineage
 }  // namespace vendor

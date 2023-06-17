@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Copyright (C) 2020 The MoKee Open Source Project
+# Copyright (C) 2020 The LineageOS Open Source Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -13,7 +13,7 @@ if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 
 MOKEE_ROOT="${MY_DIR}/../../.."
 
-HELPER="${MOKEE_ROOT}/vendor/mokee/build/tools/extract_utils.sh"
+HELPER="${MOKEE_ROOT}/vendor/lineage/build/tools/extract_utils.sh"
 if [ ! -f "${HELPER}" ]; then
     echo "Unable to find helper script at ${HELPER}"
     exit 1

@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The MoKee Open Source Project
+# Copyright (C) 2020 The LineageOS Open Source Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -12,7 +12,7 @@ PRODUCT_PACKAGE_OVERLAYS +=  $(LOCAL_PATH)/overlay-product
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-sdm710
 
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-mokee
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
 
 # Properties
 -include $(LOCAL_PATH)/vendor_prop.mk
@@ -248,7 +248,7 @@ PRODUCT_PACKAGES += \
 
 # Touch
 PRODUCT_PACKAGES += \
-    vendor.mokee.touch@1.0-service.meizu_sdm710
+    vendor.lineage.touch@1.0-service.meizu_sdm710
 
 # USB
 PRODUCT_PACKAGES += \
