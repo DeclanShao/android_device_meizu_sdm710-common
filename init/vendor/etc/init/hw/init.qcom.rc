@@ -951,12 +951,6 @@ service charger /system/bin/meizu_charger
     group root
     seclabel u:r:charger:s0
 
-service ssr_diag /system/vendor/bin/ssr_diag
-    class late_start
-    user system
-    group system
-    disabled
-
 service hvdcp /system/bin/hvdcp
     class core
     user root
