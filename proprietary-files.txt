@@ -338,9 +338,7 @@ vendor/lib/qcdrm/playready/lib/mediadrm/libprmediadrmplugin_customer.so
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
 vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
 vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-vendor/lib/libspcom.so
 vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-vendor/lib64/libspcom.so
 
 # GPS
 # -priv-app/com.qualcomm.location/com.qualcomm.location.apk
@@ -662,11 +660,13 @@ vendor/lib64/libqti-utils.so
 vendor/lib64/vendor.qti.hardware.limits@1.0_vendor.so
 vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so
 
-# Peripheral manager
-vendor/bin/pm-proxy
-vendor/bin/pm-service
-vendor/lib/libperipheral_client.so
-vendor/lib64/libperipheral_client.so
+# Peripheral manager - from LA.UM.9.8.r1-02700-SDM710.0
+vendor/bin/pm-proxy|832cbe7995de8177a2ef5bdf3f145131dfe828d4
+vendor/bin/pm-service|28f5e8d8f98c8e97941f514bafdc0b369cc5b600
+vendor/lib64/libperipheral_client.so|8cb65f4c93719767048dd7b1b845473fe6074ff7
+vendor/lib64/libspcom.so|d29924f33878c59364362e023c9a53fa40bfeade
+vendor/lib/libperipheral_client.so|4f4700270730d4043580a1e76566fd0124b01e18
+vendor/lib/libspcom.so|b50bdf06832965b7e7a0371eb1232e1b171eb4fd
 
 # Power
 vendor/lib/hw/power.qcom.so
