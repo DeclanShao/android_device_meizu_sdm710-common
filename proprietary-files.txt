@@ -742,16 +742,13 @@ vendor/lib64/libsmemlog.so
 
 # Radio
 -app/QtiSystemService/QtiSystemService.apk
--app/QtiTelephonyService/QtiTelephonyService.apk
+
 -app/datastatusnotification/datastatusnotification.apk
 -app/embms/embms.apk
--priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 etc/permissions/embms.xml
-etc/permissions/qcrilhook.xml
 etc/permissions/telephonyservice.xml
 framework/QtiTelephonyServicelibrary.jar
 framework/embmslibrary.jar
-framework/qcrilhook.jar
 lib/vendor.qti.hardware.data.connection@1.0.so
 lib64/vendor.qti.hardware.data.connection@1.0.so
 vendor/bin/ATFWD-daemon
@@ -948,6 +945,13 @@ vendor/lib64/vendor.qti.ims.callinfo@1.0.so
 vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so
 vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@1.0.so
+
+# RIL - from LA.QSSI.13.0.r1-05300-qssi.0
+-system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|9ef9e77f209b7d699d0b37463acfb19faf46d6d4
+system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
+system_ext/framework/qcrilhook.jar|8d44048c04f4d38a6bf6a279e3bceface10c0dde
+system_ext/framework/qti-telephony-common.jar|a4cc2c9423cae6e0f550db28c0539a53ca8eb866
+-system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|3ed05e8d9078c817ad3c93780f1541fc27bd552c
 
 # Sensor
 etc/sensors/proto/descriptor.proto
