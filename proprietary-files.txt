@@ -449,7 +449,6 @@ vendor/lib/egl/libGLESv2_adreno.so
 vendor/lib/egl/libQTapGLES.so
 vendor/lib/egl/libq3dtools_adreno.so
 vendor/lib/egl/libq3dtools_esx.so
-vendor/lib/hw/vulkan.sdm710.so
 vendor/lib/libC2D2.so
 vendor/lib/libCB.so
 vendor/lib/libOpenCL.so
@@ -476,7 +475,6 @@ vendor/lib64/egl/libGLESv2_adreno.so
 vendor/lib64/egl/libQTapGLES.so
 vendor/lib64/egl/libq3dtools_adreno.so
 vendor/lib64/egl/libq3dtools_esx.so
-vendor/lib64/hw/vulkan.sdm710.so
 vendor/lib64/libC2D2.so
 vendor/lib64/libCB.so
 vendor/lib64/libOpenCL.so
@@ -524,6 +522,10 @@ vendor/lib64/vendor.display.color@1.0_vendor.so
 vendor/lib64/vendor.display.color@1.1_vendor.so
 vendor/lib64/vendor.display.postproc@1.0_vendor.so
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so
+
+# Graphics (Vulkan) - from OnePlus6 - RKQ1.201217.002/2106301530
+vendor/lib/hw/vulkan.adreno.so|efe7bb8a06ccb282b250e79aad8a4c5df1b1a611
+vendor/lib64/hw/vulkan.adreno.so|8c588478757fbc3384989303f7a95c437adf7d95
 
 # IOP
 lib/vendor.qti.hardware.iop@1.0.so
