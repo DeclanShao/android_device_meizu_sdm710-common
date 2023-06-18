@@ -435,6 +435,10 @@ vendor/lib64/vendor.qti.gnss@1.2.so
 vendor/lib64/vendor.qti.gnss@2.0.so
 vendor/lib64/vendor.qti.gnss@2.1.so
 
+# Graphics (HDR) - from OnePlus6 - RKQ1.201217.002
+vendor/lib/libhdr_tm.so|af8f696556839ff13a523a478866064a537c8477
+vendor/lib64/libhdr_tm.so|5267cb8b791aecd6ef8ff64c5206935c5c6f1add
+
 # Graphics
 lib/libsdm-disp-apis.so
 lib64/libsdm-disp-apis.so
